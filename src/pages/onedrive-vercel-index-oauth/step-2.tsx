@@ -93,7 +93,7 @@ export default function OAuthStep2() {
               }`}
               autoFocus
               type="text"
-              placeholder="http://localhost/?code=M.R3_BAY.c0..."
+              placeholder="https://onedrive-vercel-index.vercel.app/?code=M.R3_BAY.c0..."
               value={oAuthRedirectedUrl}
               onChange={e => {
                 setOAuthRedirectedUrl(e.target.value)
